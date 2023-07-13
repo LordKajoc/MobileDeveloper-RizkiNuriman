@@ -18,18 +18,18 @@ import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class ThirdFragment : Fragment(), UserAdapter.ListUserClickInterface {
-    lateinit var binding: FragmentThirdBinding
+    private lateinit var binding: FragmentThirdBinding
     private lateinit var movieadapter: UserAdapter
     private lateinit var userViewmodel: UserViewModel
-    var page: Int = 1
+    private var page: Int = 1
 
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
-        userViewmodel = ViewModelProvider(this).get(UserViewModel::class.java)
+        userViewmodel = ViewModelProvider(this)[UserViewModel::class.java]
         binding = FragmentThirdBinding.inflate(layoutInflater, container, false)
         return binding.root
     }

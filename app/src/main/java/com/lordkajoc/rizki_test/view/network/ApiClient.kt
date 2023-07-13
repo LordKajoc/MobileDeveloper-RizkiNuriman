@@ -17,7 +17,7 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object ApiClient {
 
-    const val BASE_URL = "https://reqres.in/api/"
+    private const val BASE_URL = "https://reqres.in/api/"
 
     private val logging: HttpLoggingInterceptor
         get() {

@@ -14,7 +14,7 @@ import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class SecondFragment : Fragment() {
-    lateinit var binding: FragmentSecondBinding
+    private lateinit var binding: FragmentSecondBinding
     private lateinit var userViewmodel: UserViewModel
 
 
@@ -23,7 +23,7 @@ class SecondFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         // Inflate the layout for this fragment
-        userViewmodel = ViewModelProvider(this).get(UserViewModel::class.java)
+        userViewmodel = ViewModelProvider(this)[UserViewModel::class.java]
         binding = FragmentSecondBinding.inflate(layoutInflater, container, false)
         return binding.root
     }
@@ -41,13 +41,13 @@ class SecondFragment : Fragment() {
         }
     }
 
-    fun getNama() {
+    private fun getNama() {
         val getnama = userViewmodel.getNama()
         binding.tvNamefs.text = getnama
     }
 
-    fun getDataUserSingle() {
-        var idUser = arguments?.getInt("ID")
+    private fun getDataUserSingle() {
+        val idUser = arguments?.getInt("ID")
         if (idUser != null) {
             userViewmodel.getUserSingle(idUser)
             userViewmodel.livedatauserSingle.observe(viewLifecycleOwner) {

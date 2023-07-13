@@ -21,7 +21,7 @@ class UserAdapter(
                 .load(item.avatar)
                 .into(binding.ivAvataruser)
             binding.cvCarduser.setOnClickListener {
-                item.id.let { it1 -> itemClick.onItemClickUser(it1!!) }
+                item.id.let { it1 -> itemClick.onItemClickUser(it1) }
             }
 
         }

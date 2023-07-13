@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint Flamingo | 2022.2.1 Patch 2">
+
+    <issue
+        id="DefaultLocale"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`.">
+        <location
+            file="src\main\java\com\lordkajoc\rizki_test\view\ui\FirstFragment.kt"
+            line="54"/>
+    </issue>
+
+    <issue
+        id="OldTargetApi"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        message="Attribute `fontStyle` is only used in API level 26 and higher (current min is 19)">
+        <location
+            file="src\main\res\font\font_gotham.xml"
+            line="4"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        message="Attribute `fontWeight` is only used in API level 26 and higher (current min is 19)">
+        <location
+            file="src\main\res\font\font_gotham.xml"
+            line="5"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        message="Attribute `font` is only used in API level 26 and higher (current min is 19)">
+        <location
+            file="src\main\res\font\font_gotham.xml"
+            line="6"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        message="Attribute `fontStyle` is only used in API level 26 and higher (current min is 19)">
+        <location
+            file="src\main\res\font\font_poppins.xml"
+            line="4"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        message="Attribute `fontWeight` is only used in API level 26 and higher (current min is 19)">
+        <location
+            file="src\main\res\font\font_poppins.xml"
+            line="5"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        message="Attribute `font` is only used in API level 26 and higher (current min is 19)">
+        <location
+            file="src\main\res\font\font_poppins.xml"
+            line="6"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        message="Attribute `lineHeight` is only used in API level 28 and higher (current min is 19)">
+        <location
+            file="src\main\res\layout\fragment_second.xml"
+            line="40"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        message="Attribute `lineHeight` is only used in API level 28 and higher (current min is 19)">
+        <location
+            file="src\main\res\layout\fragment_third.xml"
+            line="40"/>
+    </issue>
+
+    <issue
+        id="VectorRaster"
+        message="This attribute is not supported in images generated from this vector icon for API &lt; 21; check generated icon to make sure it looks acceptable">
+        <location
+            file="src\main\res\drawable\baseline_arrow_back_ios_24.xml"
+            line="1"/>
+    </issue>
+
+    <issue
+        id="VectorRaster"
+        message="Resource references will not work correctly in images generated for this vector icon for API &lt; 21; check generated icon to make sure it looks acceptable">
+        <location
+            file="src\main\res\drawable\baseline_arrow_back_ios_24.xml"
+            line="4"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.appcompat:appcompat than 1.3.1 is available: 1.6.1">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.core:core-ktx than 1.7.0 is available: 1.10.1">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.5.1 is available: 2.6.1">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.5.1 is available: 2.6.1">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.navigation:navigation-fragment-ktx than 2.5.3 is available: 2.6.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.navigation:navigation-safe-args-gradle-plugin than 2.5.3 is available: 2.6.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.navigation:navigation-ui-ktx than 2.5.3 is available: 2.6.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.4.0 is available: 3.5.1">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test.ext:junit than 1.1.3 is available: 1.1.5">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.github.bumptech.glide:glide than 4.12.0 is available: 4.13.1">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.android.material:material than 1.6.1 is available: 1.9.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.android.material:material than 1.6.1 is available: 1.9.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.dagger:hilt-android than 2.44 is available: 2.45">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.dagger:hilt-compiler than 2.44 is available: 2.45">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="MergedDataBinderMapper can only be accessed from within the same library (androidx.databinding:databinding-runtime)">
+        <location
+            file="build\generated\source\kapt\debug\androidx\databinding\DataBinderMapperImpl.java"
+            line="3"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="MergedDataBinderMapper.addMapper can only be called from within the same library (androidx.databinding:databinding-runtime)">
+        <location
+            file="build\generated\source\kapt\debug\androidx\databinding\DataBinderMapperImpl.java"
+            line="5"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DataBinderMapper can only be accessed from within the same library (androidx.databinding:databinding-runtime)">
+        <location
+            file="build\generated\source\kapt\debug\com\lordkajoc\rizki_test\DataBinderMapperImpl.java"
+            line="20"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DataBinderMapper.getLayoutId can only be called from within the same library (androidx.databinding:databinding-runtime)">
+        <location
+            file="build\generated\source\kapt\debug\com\lordkajoc\rizki_test\DataBinderMapperImpl.java"
+            line="67"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DataBinderMapper.convertBrIdToString can only be called from within the same library (androidx.databinding:databinding-runtime)">
+        <location
+            file="build\generated\source\kapt\debug\com\lordkajoc\rizki_test\DataBinderMapperImpl.java"
+            line="76"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="DataBinderMapper.collectDependencies can only be called from within the same library (androidx.databinding:databinding-runtime)">
+        <location
+            file="build\generated\source\kapt\debug\com\lordkajoc\rizki_test\DataBinderMapperImpl.java"
+            line="82"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TextViewBindingAdapter.setText can only be called from within the same library (androidx.databinding:databinding-adapters)">
+        <location
+            file="build\generated\source\kapt\debug\com\lordkajoc\rizki_test\databinding\ItemUserBindingImpl.java"
+            line="128"/>
+    </issue>
+
+    <issue
+        id="RestrictedApi"
+        message="TextViewBindingAdapter.setText can only be called from within the same library (androidx.databinding:databinding-adapters)">
+        <location
+            file="build\generated\source\kapt\debug\com\lordkajoc\rizki_test\databinding\ItemUserBindingImpl.java"
+            line="129"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <location
+            file="src\main\AndroidManifest.xml"
+            line="18"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 26">
+        <location
+            file="src\main\res\values\styles.xml"
+            line="70"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <location
+            file="src\main\res\values\styles.xml"
+            line="110"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <location
+            file="src\main\res\values\styles.xml"
+            line="117"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `@drawable/background1` with a theme that also paints a background (inferred theme is `@style/Theme.RizkiTest`)">
+        <location
+            file="src\main\res\layout\fragment_first.xml"
+            line="7"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.abu` appears to be unused">
+        <location
+            file="src\main\res\values\colors.xml"
+            line="5"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.emas` appears to be unused">
+        <location
+            file="src\main\res\values\colors.xml"
+            line="6"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.merah` appears to be unused">
+        <location
+            file="src\main\res\values\colors.xml"
+            line="7"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.font.font_gotham` appears to be unused">
+        <location
+            file="src\main\res\font\font_gotham.xml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.font.font_poppins` appears to be unused">
+        <location
+            file="src\main\res\font\font_poppins.xml"
+            line="2"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.hello_blank_fragment` appears to be unused">
+        <location
+            file="src\main\res\values\strings.xml"
+            line="4"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.textbody10reguler` appears to be unused">
+        <location
+            file="src\main\res\values\styles.xml"
+            line="5"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.textbody10bold` appears to be unused">
+        <location
+            file="src\main\res\values\styles.xml"
+            line="11"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.textbody12reguler` appears to be unused">
+        <location
+            file="src\main\res\values\styles.xml"
+            line="18"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.textbody12bold` appears to be unused">
+        <location
+            file="src\main\res\values\styles.xml"
+            line="24"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.textbody14bold` appears to be unused">
+        <location
+            file="src\main\res\values\styles.xml"
+            line="38"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.texttitle16reguler` appears to be unused">
+        <location
+            file="src\main\res\values\styles.xml"
+            line="46"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.texttitle16bold` appears to be unused">
+        <location
+            file="src\main\res\values\styles.xml"
+            line="52"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.texttitle18reguler` appears to be unused">
+        <location
+            file="src\main\res\values\styles.xml"
+            line="59"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.textheading20reguler` appears to be unused">
+        <location
+            file="src\main\res\values\styles.xml"
+            line="74"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.textheading20bold` appears to be unused">
+        <location
+            file="src\main\res\values\styles.xml"
+            line="80"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.textheading24reguler` appears to be unused">
+        <location
+            file="src\main\res\values\styles.xml"
+            line="87"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.btnhitam` appears to be unused">
+        <location
+            file="src\main\res\values\styles.xml"
+            line="109"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        message="Found bitmap drawable `res/drawable/background1.png` in densityless folder">
+        <location
+            file="src\main\res\drawable\background1.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        message="Found bitmap drawable `res/drawable/ic_photo.png` in densityless folder">
+        <location
+            file="src\main\res\drawable\ic_photo.png"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src\main\res\layout\fragment_first.xml"
+            line="11"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src\main\res\layout\fragment_second.xml"
+            line="20"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src\main\res\layout\fragment_third.xml"
+            line="20"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image">
+        <location
+            file="src\main\res\layout\item_user.xml"
+            line="25"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src\main\java\com\lordkajoc\rizki_test\view\ui\SecondFragment.kt"
+            line="55"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Second Screen&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_second.xml"
+            line="41"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Welcome&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_second.xml"
+            line="68"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Name&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_second.xml"
+            line="76"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Choose a User&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_second.xml"
+            line="93"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Third Screen&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_third.xml"
+            line="41"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;No Data Available&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_third.xml"
+            line="84"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Reset Page&quot;, should use `@string` resource">
+        <location
+            file="src\main\res\layout\fragment_third.xml"
+            line="93"/>
+    </issue>
+
+</issues>
