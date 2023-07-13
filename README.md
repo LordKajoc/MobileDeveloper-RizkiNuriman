@@ -1,4 +1,4 @@
-# MobileDeveloper-RizkiNuriman
+# MobileDeveloper-Test-Rizki Nuriman
 Test Using API reqres.in Untuk mendapatkan biodata user.
 
 TechStack :
