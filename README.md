@@ -18,7 +18,7 @@ Features :
 3. Display List User from API with Page Dinamic
 4. on click item user
 
-screenshot form apk:
+screenshot from apk:
 ![Gambar 1](https://github.com/LordKajoc/MobileDeveloper-RizkiNuriman/assets/126139745/1cf723bc-d1da-49a7-aa44-6222fc817e5a)
 ![Gambar 2](https://github.com/LordKajoc/MobileDeveloper-RizkiNuriman/assets/126139745/9ad0f167-a9ca-4784-bf56-fd9d0cb636ef)
 ![Gambar 3](https://github.com/LordKajoc/MobileDeveloper-RizkiNuriman/assets/126139745/11ad8182-c455-464b-a035-281903af08a1)
