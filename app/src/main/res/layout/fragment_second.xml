@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress AndroidUnknownAttribute -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ui.SecondFragment">
+
+    <!--    app bar-->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/putih">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/baseline_arrow_back_ios_24"
+                app:tint="@color/hitam" />
+
+            <TextView
+                android:id="@+id/tv_secondscreen"
+                style="@style/textheading24bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/gothambold"
+                android:lineHeight="20dp"
+                android:text="Second Screen"
+                android:textAllCaps="true"
+                android:textColor="@color/hitam" />
+
+
+        </RelativeLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <View
+        android:id="@+id/view_underline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/appBar"
+        android:background="@color/hitam" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_underline"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/tv_welcomestatis"
+            style="@style/textbody14reguler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Welcome" />
+
+        <TextView
+            android:id="@+id/tv_namefs"
+            style="@style/texttitle18bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_welcomestatis"
+            android:text="Name" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_selectedUser"
+        style="@style/textheading24bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_pilihuser"
+        style="@style/btnbiru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Choose a User"
+        app:strokeColor="@color/hitam"
+        app:strokeWidth="2dp" />
+
+
+</RelativeLayout>

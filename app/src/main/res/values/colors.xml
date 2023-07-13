@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hitam">#FF000000</color>
+    <color name="putih">#FFFFFFFF</color>
+    <color name="abu">#3A4F52</color>
+    <color name="emas">#C39A4B</color>
+    <color name="merah">#FF0000</color>
+    <color name="biru">#2B637B</color>
+
+
+
+</resources>

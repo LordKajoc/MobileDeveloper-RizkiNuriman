@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:padding="20dp"
+    tools:context=".view.ui.FirstFragment">
+
+    <ImageView
+        android:id="@+id/iv_avataruser"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_above="@id/frame_etname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="41dp"
+        android:src="@drawable/ic_photo" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/frame_etname"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@id/frame_etpalindrome"
+        android:layout_marginBottom="20dp"
+
+        app:boxBackgroundColor="@color/putih"
+        app:boxBackgroundMode="filled"
+        app:boxStrokeColor="@color/hitam">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/hitam"
+            android:hint="Name"
+            tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/frame_etpalindrome"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@id/btn_check"
+        android:layout_marginBottom="20dp"
+        app:boxBackgroundColor="@color/putih"
+        app:boxBackgroundMode="filled"
+        app:boxStrokeColor="@color/hitam">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_palindrome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/hitam"
+            android:hint="Palindrome"
+            tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="@color/biru"
+        android:text="NEXT" />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@id/btn_next"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/biru"
+        android:text="CHECK" />
+
+
+</RelativeLayout>
