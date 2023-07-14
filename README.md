@@ -26,3 +26,4 @@ screenshot from apk:
 ![Gambar 5](https://github.com/LordKajoc/MobileDeveloper-RizkiNuriman/assets/126139745/93ed98e9-cad6-4d31-98bb-dfaf410a6d7f)
 ![Gambar 6](https://github.com/LordKajoc/MobileDeveloper-RizkiNuriman/assets/126139745/651f426b-402c-4c63-83af-5cd2e399f78b)
 ![Gambar 7](https://github.com/LordKajoc/MobileDeveloper-RizkiNuriman/assets/126139745/24d61c66-06e5-439d-bd98-24ee480c27d8)
+![Gambar 8](https://github.com/LordKajoc/MobileDeveloper-RizkiNuriman/assets/126139745/99a13533-0606-4384-8084-a3c5a881c5e5)
